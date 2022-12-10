@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-01T18:14:10 IST" name="Suite" finished-at="2022-12-01T18:14:33 IST" duration-ms="23619">
+    <groups>
+    </groups>
+    <test started-at="2022-12-01T18:14:10 IST" name="TestChrome" finished-at="2022-12-01T18:14:21 IST" duration-ms="11671">
+      <class name="test_testng.Test_es1">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:test_testng.Test_es1@dbf57b3]" started-at="2022-12-01T18:14:10 IST" name="Setup" finished-at="2022-12-01T18:14:21 IST" duration-ms="11030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestCE1()[pri:0, instance:test_testng.Test_es1@dbf57b3]" started-at="2022-12-01T18:14:21 IST" name="TestCE1" finished-at="2022-12-01T18:14:21 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCE1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_testng.Test_es1@dbf57b3]" started-at="2022-12-01T18:14:21 IST" name="teardown" finished-at="2022-12-01T18:14:21 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test_testng.Test_es1 -->
+    </test> <!-- TestChrome -->
+    <test started-at="2022-12-01T18:14:21 IST" name="TestEdge" finished-at="2022-12-01T18:14:33 IST" duration-ms="11915">
+      <class name="test_testng.Test_es1">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:test_testng.Test_es1@223191a6]" started-at="2022-12-01T18:14:21 IST" name="Setup" finished-at="2022-12-01T18:14:31 IST" duration-ms="9738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestCE1()[pri:0, instance:test_testng.Test_es1@223191a6]" started-at="2022-12-01T18:14:31 IST" name="TestCE1" finished-at="2022-12-01T18:14:32 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCE1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_testng.Test_es1@223191a6]" started-at="2022-12-01T18:14:32 IST" name="teardown" finished-at="2022-12-01T18:14:33 IST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test_testng.Test_es1 -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Suite -->
+</testng-results>
